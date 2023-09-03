@@ -1,0 +1,148 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.navigationbar{
+    width: 100vw;
+    height: 50px;
+    margin-top: 26px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navlist1{
+    margin-left: 100px;
+    list-style: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.navlist2{
+    margin-right: 270px;
+
+}
+.navlist2 a{
+    color: blue;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: "Nunito Sans", Sans-serif;
+
+}
+#menubar{
+    position: absolute;
+
+    color: black;
+    font-size: 30px;
+    margin-left: -210px;
+    margin-top: 12px;
+}
+#cross{
+    position: absolute;
+    margin-left: -45px;
+    font-size: 41px;
+    margin-top: 4px;
+
+   color: black;
+
+}
+.navlist2 a:hover{
+    color: white;
+}
+
+.maincontainer{
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.infocontainer{
+    color: black;
+    width: 85vw;
+    height: 80vh;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dev-info{
+    font-size: 30px;
+    margin-left: 100px;
+    color: white;
+}
+#greeting{
+    font-size: 50px;
+    font-family: 'Preahvihear', sans-serif;
+    font-family: 'REM', sans-serif;
+    animation-direction: alternate;
+
+}
+
+#name{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Preahvihear', sans-serif;
+    font-family: 'REM', sans-serif;
+    
+}
+#about{
+    font-size: 30px;
+    font-family: 'Preahvihear', sans-serif;
+    font-family: 'REM', sans-serif;
+    margin-top: 5px;
+
+}
+#post{
+    font-size: 30px;
+    font-family: 'REM', sans-serif;
+    font-family: 'REM', sans-serif;
+    
+
+}
+
+#self-intro{
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+#info-button{
+
+    width: 152px;
+    height: 33px;
+    border: 1px;
+    border-radius: 41px;
+    font-size: 17px;
+    background-color: #1047f4c9;
+    color: white;
+    font-weight: 600;
+    margin-top: 15px;
+}
+#info-button:hover{
+    color: blue;
+    background-color: white;
+    border: 2px solid red;
+}
+
+.dev-profile img{
+    width: 463px;
+    height: 456px;
+}
